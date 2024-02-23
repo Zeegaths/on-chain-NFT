@@ -23,7 +23,7 @@ contract OnChainNFT is ERC721URIStorage {
         string memory baseURL = "data:application/json;base64,";
         string memory json = string(
             abi.encodePacked(
-                '{"name": "SNF ON-CHAINE", "description": "YOU ARE A STAR", "image":"',
+                '{"name": "SNF ON-CHAIN", "description": "YOU ARE A STAR", "image":"',
                 imageURI,
                 '"}'
             )
